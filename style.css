@@ -1,0 +1,85 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+h1 {
+  font-weight: bold;
+  text-align: center;
+  color: #f85e00;
+}
+#intro {
+  text-align: center;
+}
+.dia {
+  margin: 0 auto;
+  padding: 10px 20px;
+  text-align: center;
+  border-style: solid;
+  border-color: #f85e00;
+  font-size: 20px;
+}
+.row {
+  margin: 0px 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.fichas {
+  margin: 10px 30px;
+}
+.grid {
+  background-color: #ffe156;
+}
+.opciones {
+  font-size: 30px;
+  margin: 10px 4px;
+}
+ul {
+  padding: 0;
+}
+#premio {
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  padding-top: 20px;
+}
+#boton-premio {
+  margin: 5px auto;
+  justify-content: center;
+  display: flex;
+  border-radius: 3px;
+  color: wheat;
+  background-color: #f85e00;
+  border-color: #f85e00;
+  padding: 5px;
+}
+#boton-reiniciar {
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  border-radius: 3px;
+  color: wheat;
+  background-color: #f85e00;
+  border-color: #f85e00;
+  padding: 5px;
+}
+#reiniciar {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.boton-aceptar {
+  border-radius: 3px;
+  color: wheat;
+  background-color: #f85e00;
+  border-color: #f85e00;
+}
+#boton-nombre {
+  border-radius: 3px;
+  color: wheat;
+  background-color: #f85e00;
+  border-color: #f85e00;
+}
+#input {
+  display: inline-flexbox;
+  font-size: 20px;
+  text-align: right;
+}
