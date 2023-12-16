@@ -11,10 +11,8 @@ h1 {
 }
 .dia {
   margin: 0 auto;
-  padding: 10px 20px;
+  padding: 10px 23px;
   text-align: center;
-  border-style: solid;
-  border-color: #f85e00;
   font-size: 20px;
 }
 .row {
@@ -25,8 +23,14 @@ h1 {
 .fichas {
   margin: 10px 30px;
 }
+.total {
+  font-size: 20px;
+  margin: 10px 4px;
+}
 .grid {
   background-color: #ffe156;
+  border-style: solid;
+  border-color: #f85e00;
 }
 .opciones {
   font-size: 30px;
@@ -40,6 +44,7 @@ ul {
   justify-content: center;
   display: flex;
   padding-top: 20px;
+  font-size: 30px;
 }
 #boton-premio {
   margin: 5px auto;
@@ -72,14 +77,53 @@ ul {
   background-color: #f85e00;
   border-color: #f85e00;
 }
+
+#name-input {
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+}
+
+#titulo {
+  font-size: 31px;
+}
 #boton-nombre {
+  margin: 5px auto;
+  justify-content: center;
+  display: flex;
   border-radius: 3px;
   color: wheat;
   background-color: #f85e00;
   border-color: #f85e00;
+  padding: 5px;
 }
-#input {
-  display: inline-flexbox;
+#celda-nombre {
+  text-align: center;
+  font-size: 30px;
+}
+#celda-conducta1,
+#celda-conducta2,
+#celda-conducta3,
+#celda-conducta4,
+#celda-conducta5 {
   font-size: 20px;
-  text-align: right;
+}
+#input-happy5,
+#input-sad5,
+#input-happy4,
+#input-sad4,
+#input-happy3,
+#input-sad3,
+#input-happy2,
+#input-sad2,
+#input-happy1,
+#input-sad1 {
+  width: 35px;
+}
+#happy1,
+#happy2,
+#happy3,
+#happy4,
+#happy5 {
+  text-align: center;
 }

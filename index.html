@@ -22,11 +22,10 @@
       </ul>
     </div>
     <div id="contenedor">
+          <div id="celda-nombre"><input  id="name-input" type="text" placeholder="Nombre" value="" /><button id="boton-nombre">Aceptar</button></div>
       <table class="grid">
-        <tr class="row">
-          <td id="input"
-            ><input  id="name-input" type="text" placeholder="Nombre" value="" /><button id="boton-nombre">Aceptar</button></td
-          >
+        <tr class="row" >
+          <td id="titulo">Economía de fichas</td>
           <td class="dia">Lun</td>
           <td class="dia">Mar</td>
           <td class="dia">Mie</td>
@@ -39,11 +38,11 @@
       </table>
       <table class="grid">
         <tr class="row" id="conducta1">
-      <td
+      <td id="celda-conducta1"
             ><input
               id="conducta-input1"
               type="text"
-              placeholder="Conducta a modificar(1)" /><button class="boton-aceptar">Aceptar</button></td
+              placeholder="Conducta a modificar(1)" /><button class="boton-aceptar" id="aceptar1">Aceptar</button></td
               
           >
           <td class="fichas"
@@ -88,16 +87,16 @@
               <option value="emoji">☹</option>
             </select></td
           >
-          <td class="fichas"></td>
+          <td class="total"><div id="happy1"><span><input type="number" id="input-happy1"><button id="boton-happy1">=😊</button> </span></div><div id="sad1"><span><input type="number" id="input-sad1"><button id="boton-sad1">=☹</button></span></div></td>
         </div>
       </table>
       <table class="grid">
         <tr class="row" id="conducta2">
-          <td
+          <td id="celda-conducta2"
             ><input
               id="conducta-input2"
               type="text"
-              placeholder="Conducta a modificar (2)" /><button class="boton-aceptar">Aceptar</button></td
+              placeholder="Conducta a modificar (2)" /><button class="boton-aceptar" id="aceptar2">Aceptar</button></td
           >
           <td class="fichas"
             ><select name="Fichas" class="opciones">
@@ -141,16 +140,19 @@
               <option value="emoji">☹</option>
             </select></td
           >
-          <td class="fichas"></td>
+          <td class="total"><div id="happy2"><span><input type="number" id="input-happy2">
+            <button id="boton-happy2">=😊</button></span></div>
+            <div id="sad2"><span><input type="number" id="input-sad2">
+              <button id="boton-sad2">=☹</button></span></div></td>
         </tr>
       </table>
       <table class="grid">
         <tr class="row" id="conducta3">
-          <td
+          <td id="celda-conducta3"
             ><input
               id="conducta-input3"
               type="text"
-              placeholder="Conducta a modificar (3)" /><button class="boton-aceptar">Aceptar</button></td
+              placeholder="Conducta a modificar (3)" /><button class="boton-aceptar" id="aceptar3">Aceptar</button></td
           >
           <td class="fichas"
             ><select name="Fichas" class="opciones">
@@ -194,16 +196,19 @@
               <option value="emoji">☹</option>
             </select></td
           >
-          <td class="fichas"></td>
+          <td class="total"><div id="happy3"><span><input type="number" id="input-happy3">
+            <button id="boton-happy3">=😊</button></span></div><div id="sad3"><span>
+              <input type="number" id="input-sad3">
+              <button id="boton-sad3">=☹</button></span></div></td>
         </tr>
       </table>
       <table class="grid">
         <tr class="row" id="conducta4">
-          <td
+          <td id="celda-conducta4"
             ><input
               id="conducta-input4"
               type="text"
-              placeholder="Conducta a modificar(4)" /><button class="boton-aceptar">Aceptar</button></td
+              placeholder="Conducta a modificar(4)" /><button class="boton-aceptar" id="aceptar4">Aceptar</button></td
           >
           <td class="fichas"
             ><select name="Fichas" class="opciones">
@@ -247,16 +252,19 @@
               <option value="emoji">☹</option>
             </select></td
           >
-          <td class="fichas"></td>
+          <td class="total"><div id="happy4"><span><input type="number" id="input-happy4">
+            <button id="boton-happy4">=😊</button></span></div>
+            <div id="sad4"><span><input type="number" id="input-sad4">
+              <button id="boton-sad4">=☹</button></span></div></td>
         </tr>
       </table>
       <table class="grid">
         <tr class="row" id="conducta5">
-          <td
+          <td id="celda-conducta5"
             ><input
               id="conducta-input5"
               type="text"
-              placeholder="Conducta a modificar (5)" /><button class="boton-aceptar">Aceptar</button></td
+              placeholder="Conducta a modificar (5)" /><button class="boton-aceptar" id="aceptar5">Aceptar</button></td
           >
           <td class="fichas"
             ><select name="Fichas" class="opciones">
@@ -300,11 +308,14 @@
               <option value="emoji">☹</option>
             </select></td
           >
-          <td class="fichas"></td>
+          <td class="total"><div id="happy5"><span><input type="number" id="input-happy5">
+            <button id="boton-happy5">=😊</button></span></div>
+            <div id="sad5"><span><input type="number" id="input-sad5">
+              <button id="boton-sad5">=☹</button></span></div></td>
         </tr>
       </table>
     </div>
-    <div id="premio"><input type="text" placeholder="Escriba el premio" /></div>
+    <div id="premio"><input id="input-premio" type="text" placeholder="Escriba el premio" /></div>
     <div><button id="boton-premio">Aceptar</button></div>
     <div id="reiniciar">
       Para empezar una nueva semana presione el siguiente botón
