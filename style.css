@@ -3,6 +3,7 @@ body {
 }
 table {
   margin: 0 auto;
+  border-spacing: 0;
 }
 h1 {
   font-weight: bold;
@@ -12,32 +13,39 @@ h1 {
 #intro {
   text-align: center;
 }
-.dia {
+.dia1,
+.dia2,
+.dia3,
+.dia4,
+.dia5,
+.dia6,
+.dia7 {
   margin: 0 auto;
   padding: 10px 23px;
   text-align: center;
   font-size: 20px;
+  width: 50px;
 }
-.row {
-  margin: 0px 5px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
+
 .fichas {
-  margin: 10px 30px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 .total {
   font-size: 20px;
   margin: 10px 4px;
+  text-align: center;
+  width: 50px;
 }
 .grid {
   background-color: #ffe156;
   border-style: solid;
   border-color: #f85e00;
+  width: 100%;
 }
 .opciones {
   font-size: 30px;
-  margin: 10px 4px;
 }
 ul {
   padding: 0;
@@ -79,6 +87,9 @@ ul {
   color: wheat;
   background-color: #f85e00;
   border-color: #f85e00;
+  margin: 5px auto;
+  justify-content: center;
+  display: flex;
 }
 
 #name-input {
@@ -88,7 +99,9 @@ ul {
 }
 
 #titulo {
-  font-size: 31px;
+  font-size: 25px;
+  width: 180px;
+  text-align: center;
 }
 #boton-nombre {
   margin: 5px auto;
@@ -110,6 +123,8 @@ ul {
 #celda-conducta4,
 #celda-conducta5 {
   font-size: 20px;
+  width: 250px;
+  text-align: center;
 }
 #input-happy5,
 #input-sad5,
