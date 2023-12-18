@@ -31,6 +31,7 @@ h1 {
   text-align: center;
   padding: 0;
   margin: 0;
+  width: 50px;
 }
 .total {
   font-size: 20px;
@@ -123,7 +124,7 @@ ul {
 #celda-conducta4,
 #celda-conducta5 {
   font-size: 20px;
-  width: 250px;
+  width: 180px;
   text-align: center;
 }
 #input-happy5,
